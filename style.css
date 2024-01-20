@@ -9,6 +9,8 @@ html,body{
 }
 
 nav{
+    position: sticky;
+    top:2px;
     margin-top: 2px;
     display: flex;
     justify-content: space-between;
@@ -104,13 +106,13 @@ input{
 }
 
 .sidenavbar{
+    position:fixed;
     display: flex;
-    
     flex-direction: column;
     /* justify-content: space-evenly; */
     
     height: auto;
-    width:18%;
+    width:16%;
     border: 2px solid purple;
 }
 .sidenavbar-img{
@@ -137,21 +139,26 @@ input{
 }
 
 .main-container{
+    /* position; */
+    margin-left:16%;
     height: auto;
-    width: 100%;
+    width: auto;
     border: 2px solid #00ff15;
 }
 
 .sidenav-main{
-    display: flex;
+    display:flex;
+    justify-self: normal;
 }
 .all{
-    height:min-content;
+    position: sticky;
+    top:62px;
+    
     margin: 10px 0px 20px 0px;
     border: 2px solid saddlebrown ;
 }
 .title{
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 18px;
     padding: 8px;
     width: fit-content;
