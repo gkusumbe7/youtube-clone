@@ -117,24 +117,30 @@ input{
     width:16%;
     /* border: 2px solid purple; */
 }
+
+.sidenavbar-items{
+    font-family:'Roboto','sans-serif';
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px;
+    margin: 6px 0px 10px 15px;
+    height: 35px;
+    width: 70%;
+    /* border: 2px solid blue; */
+    border-radius: 20px;
+}
+.sidenavbar-items:hover{
+    background-color: #CCCCCC;
+}
+
 .sidenavbar-img{
     margin-right:30px;
     margin-left: 5px;
     height: 20px;
     width: 20px;
 }   
-.sidenavbar-items{
-    font-family:'Roboto','sans-serif';
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    padding: 2px;
-    margin: 5px 0px 5px 15px;
-    height: 35px;
-    width: 70%;
-    /* border: 2px solid blue; */
-    border-radius: 30px;
-}
+
 .you{
     font-size: 20px;
     font-family: none;
@@ -162,14 +168,19 @@ input{
     /* margin: 0px 0px 20px 0px; */
     /* border: 2px solid saddlebrown ; */
 }
+
+
 .title{
     text-align: center;
-    margin-left: 5px;
+    margin: 5px;
     font-size: 18px;
-    padding: 8px;
+    padding: 7px;
     /* width: fit-content; */
     background-color: #EDEDED;
     border-radius: 10px;
+}
+.title:hover{
+    background-color: #CCCCCC;
 }
 
 .video-container{
