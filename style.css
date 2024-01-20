@@ -9,6 +9,7 @@ html,body{
 }
 
 nav{
+    margin-top: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +20,7 @@ nav{
 
 
 .nav-left{
+    margin-left: 20px;
     border: 2px solid #000000;
     display: flex;
     width: 200px;
@@ -39,39 +41,139 @@ nav{
 
 
 
-input{
-    font-size: 18px;
-    height: 45px;
-    width:  650px;
-    padding: 3px;
-    border-radius: 25px;
-    border: 2px solid rgb(131, 120, 120);
+
+.middle-nav{
+    display: flex;
+    align-items: center;
 }
 
-.nav-search{
+form{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 600px;
+    border:2px solid black;
+}
+.search-button{
+    height: 40px;
+    width: 80px;
+    border-radius: 0px 30px 30px 0px; 
+    border:2px solid #CCCCCC;
+    padding: 5px;
+}
+.search-buuton-img{
+    height: 25px;
+    width: 25px;
+}
+
+input{
+    height: 40px;
+    width: 500px;
+    border:2px solid #CCCCCC;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+
+.mic-button{
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   border: 0px;
+}
+
+.mic-icon{
+    padding: 2px;
+    height: 25px;
+    width: 25px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.cnp-right-nav-icon{
+    margin: 15px;
+    height:25px;
+    width:25px;
+}
+.profile-photo{
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+}
+
+.sidenavbar{
+    display: flex;
+    
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    
+    height: auto;
+    width:18%;
+    border: 2px solid purple;
+}
+.sidenavbar-img{
+    margin-right: 15px;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}   
+.sidenavbar-items{
+    font-family:sans-serif ;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 2px;
+    margin: 5px 0px 5px 15px;
+    height: 35px;
+    width: 70%;
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+.you{
+    font-size: 20px;
+    font-family: none;
+}
+
+.main-container{
+    height: auto;
+    width: 100%;
+    border: 2px solid #00ff15;
+}
+
+.sidenav-main{
     display: flex;
 }
-
-
-.search-button{
-    height: 30px;
-    border-radius: 50px;
+.all{
+    height:min-content;
+    margin: 10px 0px 20px 0px;
+    border: 2px solid saddlebrown ;
 }
-.button{
-    border-radius: 50px;
-}
-
-.mic{
-    background-color:rgb(245, 241, 241);
-    height:35px;
-    width:35px;
+.title{
+    margin-left: 10px;
+    font-size: 18px;
     padding: 8px;
-    border-radius: 50%;
+    width: fit-content;
+    background-color: #EDEDED;
+    border-radius: 10px;
 }
 
-
-
-.add-video{
-    height:35px;
-    width:35px;
+.video-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video-card{
+    margin:5px;
+    height:250px;
+    width: 360px;
+    border: 2px solid fuchsia;
+}
+.video-photo{
+    padding:5px;
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
