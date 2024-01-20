@@ -172,15 +172,30 @@ input{
     flex-wrap: wrap;
 }
 .video-card{
-    margin:5px;
     height:250px;
     width: 360px;
     border: 2px solid fuchsia;
 }
 .video-photo{
-    padding:5px;
-    width: 350px;
+    padding:2px;
+    width: 355px;
     height: 200px;
+    border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.youtubers-profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.video-text{
+  display: flex;
+  
+}
+.text{
+    margin-left: 15px;
 }
